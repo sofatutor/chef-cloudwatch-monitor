@@ -17,6 +17,6 @@ issues_url 'https://github.com/cgswong/chef-cloudwatch-monitor/issues' if respon
   supports os
 end
 
-depends 'cron', '~> 4.1.3'
+depends 'cron', '~> 1.6'
 
 chef_version '>= 12.11'
