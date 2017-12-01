@@ -21,7 +21,7 @@ when 'amazon'
       action :install
     end
   end
-when 'ubuntu'
+when 'debian'
   %w[zip unzip libwww-perl libdatetime-perl].each do |pkg|
     package pkg do
       action :install
