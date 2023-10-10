@@ -2,7 +2,7 @@
 # Cookbook:: cloudwatch-monitor
 # Recipe:: install
 
-cwmon_url = "http://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-#{node['cwmon']['version']}.zip"
+cwmon_url = "https://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-#{node['cwmon']['version']}.zip"
 cwmon_home_link = "#{node['cwmon']['base']}/aws-scripts-mon"
 cwmon_home = "#{node['cwmon']['base']}/aws-scripts-mon-#{node['cwmon']['version']}"
 cwmon_zip = "#{node['cwmon']['base']}/CloudWatchMonitoringScripts-#{node['cwmon']['version']}.zip"
